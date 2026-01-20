@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evolution of the Digital Era</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Canvas for subtle background particles -->
+    <canvas id="bg-canvas"></canvas>
+
+    <header>
+        <h1>The Evolution of the Digital Era</h1>
+        <p>From the 19th Century to Modern Web</p>
+        <small>Scroll horizontally to explore ➜</small>
+    </header>
+
+    <div class="timeline-container">
+        <!-- Timeline Line will be drawn via CSS/JS -->
+        <div class="timeline" id="timeline-root">
+            <!-- Items injected by JS -->
+        </div>
+    </div>
+
+    <!-- Modal for details -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-text"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
